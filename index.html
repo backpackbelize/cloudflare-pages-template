@@ -13,13 +13,18 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
       height: 100vh;
       text-align: center;
       color: #1a1a1a;
     }
     .container {
-      max-width: 700px;
+      max-width: 800px;
       padding: 20px;
+    }
+    img.logo {
+      max-width: 240px;
+      margin-bottom: 30px;
     }
     h1 {
       font-size: 3em;
@@ -36,13 +41,20 @@
       font-style: italic;
       color: #888;
     }
+    .footnote {
+      margin-top: 2em;
+      font-size: 0.95em;
+      color: #999;
+    }
   </style>
 </head>
 <body>
   <div class="container">
+    <img src="https://cottonright.pages.dev/logo.png" alt="CottonRight Logo" class="logo" />
     <h1>CottonRight</h1>
     <p>100% Cotton. Zero Stretch.<br>Blue Jeans Are Coming Soon.</p>
     <div class="tagline">The Look. The Feel. The Fabric of Your Life — Reinvented.</div>
+    <div class="footnote">No plastic blends. No gimmicks. Just jeans, the way they were meant to be.</div>
   </div>
 </body>
 </html>
